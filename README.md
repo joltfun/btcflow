@@ -1,8 +1,12 @@
 # Btcflow
 Mempool and flow-based Bitcoin fee estimator.
 
-Developed by [/u/bitbug42](https://www.reddit.com/user/bitbug42) as part of the project [Bitcoiner.live](https://bitcoiner.live/)  
-Tips [through BTCPay (on-chain or Lightning)](https://pay.joltfun.com/apps/2F6y2o2fUUW1fUGj9p26CXV4qxSF/pos)
+This program connects to a Bitcoind node, logs the flow of transactions to a MongoDB database, then periodically analyzes the log, computes estimates and saves the result to a JSON file.
+
+This is the underlying system powering [Bitcoiner.live](https://bitcoiner.live/)'s estimates.
+
+Developed by [/u/bitbug42](https://www.reddit.com/user/bitbug42).
+Tips [through BTCPay (on-chain or Lightning)](https://pay.joltfun.com/apps/2F6y2o2fUUW1fUGj9p26CXV4qxSF/pos).
 
 ## Requirements
 
